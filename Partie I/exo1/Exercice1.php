@@ -1,6 +1,6 @@
 <?php
 
-//déclarer une variable name
+//déclarer une variable name, l'afficher
 
 $name = 'Katia';
 
