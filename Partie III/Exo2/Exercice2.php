@@ -7,11 +7,13 @@
 // - incrementer la première variable
 
 $var1= 0;
-$var2= 5;
+$var2= 3;
 
 
 while ($var1 < 20){
 
-    echo "<p>" . $var1*$var2 . "<p>";
-    echo "<p>" . $var1++ . "</p>";
+    echo $var1*$var2;
+    echo $var1++;
 }
+
+?>
