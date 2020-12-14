@@ -6,8 +6,8 @@ $lastname = 'Clapton';
 $firstname= 'Eric';
 $age = 75;
 
-echo nl2br($lastname . "\n");
-echo nl2br($firstname . "\n");
+echo ($lastname . "<br>");
+echo ($firstname . "<br>");
 echo $age;
 
 ?>

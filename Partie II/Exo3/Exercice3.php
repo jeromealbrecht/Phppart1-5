@@ -10,8 +10,11 @@
 //Vous êtes une femme et vous êtes majeure
 //Vous êtes une femme et vous êtes mineur 
 
-$age=17;
-$gender='femme';
+$age = 18;
+
+// ucfirst va mettre en majuscule, strtolower va mettre en minuscule
+$gender = strtolower('femmE');
+
 
 if ($age >=18 && $gender == 'femme'){
 echo 'Vous êtes une femme et vous êtes majeure';
@@ -19,8 +22,8 @@ echo 'Vous êtes une femme et vous êtes majeure';
     echo 'Vous êtes une femme et vous êtes mineure';
 
 } else if ($age >=18 && $gender == 'homme'){
-    echo 'vous êtes un homme et vous êtes majeur' ;
+    echo 'Vous êtes un homme et vous êtes majeur' ;
 
-} else if ($age <=17 && $gender == 'homme'){
-    echo 'vous êtes un homme et vous êtes mineur' ;
+} else if ($age < 18 && $gender == 'homme'){
+    echo 'Vous êtes un homme et vous êtes mineur' ;
 }

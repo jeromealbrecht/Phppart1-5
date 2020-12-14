@@ -3,7 +3,7 @@
 $str = 'texte';
 $int = 12;
 $float = 3.5;
-$boolean = false;
+$boolean = true;
 echo nl2br ($str . "\n");
 echo nl2br ($int . "\n");
 echo nl2br ($float . "\n");
